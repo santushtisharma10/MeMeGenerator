@@ -66,12 +66,16 @@ input {
 .something {
 
   position: relative;
+  
+  
 }
 .upper {
 
   position: absolute;
   top: 0;
+  
 }
+
 .lower {
 
   position: absolute;
@@ -87,4 +91,11 @@ h2 {
   
   
 }
+
+.wrapper {
+    
+  text-align: center;
+
+}
+
 

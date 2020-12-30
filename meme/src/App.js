@@ -40,7 +40,6 @@ class App extends React.Component {
       randomUrl: this.state.urlArr[num].url
     })
 
-
   }
   componentDidMount() {
 
@@ -60,7 +59,8 @@ class App extends React.Component {
           <a class="navbar-brand">Meme Generator</a>
         </div>
         <br /><br />
-        <form onSubmit={this.genMeme}>
+        <div className="wrapper">
+        <form >
           <input
             placeholder="Enter Top Line"
             name="topLine"
@@ -75,9 +75,10 @@ class App extends React.Component {
           />
           <button type="submit" className="gen" onClick={this.genMeme}>Generate</button>
         </form>
-
+        </div>
+        
         <div className="something" width="600px" height="500px">
-          <img src={this.state.randomUrl} alt="" height="500px" width="600px" />
+          <img src={this.state.randomUrl} alt="" width="600px" height="500px" />
           <div className="upper">
             <h2>{this.state.topLine} </h2>
           </div>
@@ -86,8 +87,7 @@ class App extends React.Component {
             <h2>{this.state.bottomLine} </h2>
           </div>
         </div>
-
-
+        
       </div>
 
     )
