@@ -77,8 +77,8 @@ class App extends React.Component {
         </form>
         </div>
         
-        <div className="something" width="600px" height="500px">
-          <img src={this.state.randomUrl} alt="" width="600px" height="500px" />
+        <div className="something" height="500px" width="600px">
+          <img src={this.state.randomUrl} alt="" width="600px" height="500px"/>
           <div className="upper">
             <h2>{this.state.topLine} </h2>
           </div>
