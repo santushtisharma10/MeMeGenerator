@@ -43,11 +43,9 @@ input {
 
   position: absolute;
   top: 0;
-  color: white;
-	font-size: 40px;
+  
   text-align: center;
-	-webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+	
   
 }
 
@@ -57,18 +55,16 @@ input {
   bottom: 0;
   
   text-align: center;
-  color: white;
-	font-size: 40px;
-	-webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+ 
   
 }
 
-h2 {
+h1 {
   color: white;
 	font-size: 40px;
 	-webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
+  text-align: center;
   
 }
 

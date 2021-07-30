@@ -12,7 +12,7 @@ export default function Meme({ top, bot, url }) {
             </div>
 
             <div className="lower">
-                {bot}
+                <h1>{bot}</h1>
             </div>
         </div>
     )
