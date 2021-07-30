@@ -26,16 +26,28 @@ input {
   color:rgb(23, 54, 54);
 }
 .something {
-
+  margin: 0 auto;
+  
+  word-break: break-all;
+  white-space: pre-wrap;
+ text-align: center;
   position: relative;
+  width: 60%;
+}
+.something img{
   
-  
+  width: 100%;
   
 }
 .upper {
 
   position: absolute;
   top: 0;
+  color: white;
+	font-size: 40px;
+  text-align: center;
+	-webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
   
 }
 
@@ -43,6 +55,12 @@ input {
 
   position: absolute;
   bottom: 0;
+  
+  text-align: center;
+  color: white;
+	font-size: 40px;
+	-webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
   
 }
 
